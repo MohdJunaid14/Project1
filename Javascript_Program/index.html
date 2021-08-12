@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./data.js" type="text/javascript"></script>  
+    </head>
+    <body>
+        
+            <h1 id="name">QUIZ APPLICATION</h1><br>
+            <div class="qPanel">
+            <div id="question"> </div>
+                <div id="A"><input type="radio" name="options" id="opt1">
+                <span id="optt1"></span><br>
+                </div>
+                <div id="B"><input type="radio" name="options" id="opt2">
+                    <span id="optt2"></span><br>
+                </div>
+                <div id="C"><input type="radio" name="options" id="opt3">
+                    <span id="optt3"></span><br>
+                </div>
+                <button id="nexBtn" onclick="checkAnswer()" >Submit</button>
+                <button id="preview" disabled="true">Preview</button>
+            
+            
+            
+            </div>
+        
+        <script src="./index.js" type="text/javascript"></script> 
+    </body>
+     
+        
+</html>
